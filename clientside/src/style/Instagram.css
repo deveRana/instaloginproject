@@ -1,0 +1,357 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.mainContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(238, 238, 238,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerDiv{
+    width: 25vw;
+    height: 65vh;
+    border: 1px solid rgba(0, 0, 0,0.2);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upperDiv{
+    width: 30vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+h1{
+    font-family: 'Billabong', sans-serif;
+    font-size: 70px;                                            
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.lowerDiv{
+    width: 30vw;
+    height:40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.input{
+    width: 20vw;
+    height: 6vh;
+    border: 1px solid rgba(0, 0, 0,0.3);
+    border-radius: 5px;
+    margin: 10px 0px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(230, 227, 227,0.3);
+}
+
+input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 19vw;
+    height: 5vh;
+    background: transparent;
+
+}
+
+.btn{
+    margin-top: 10px;
+    width: 20vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 20vw;
+    height: 5vh;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #1B9CFC;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+@media (max-width:1000px) {
+    
+    .innerDiv{
+        width: 35vw;
+        height: 70vh;
+    }
+
+    .input{
+        width: 30vw;
+        height: 6vh;
+    }
+    
+    input{
+        width: 29vw;
+        height: 5vh;
+    }
+    .btn{
+        width: 30vw;
+        height: 6vh;
+    }
+    button{
+        width: 30vw;
+        height: 5vh;
+        
+    }
+    
+}
+
+
+@media (max-width:850px) {
+    input{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:800px) {
+    
+    .innerDiv{
+        width: 40vw;
+        height: 75vh;
+    }
+
+    .input{
+        width: 35vw;
+        height: 6vh;
+    }
+    
+    input{
+        width: 34vw;
+        height: 5vh;
+        font-size: 16px;
+    }
+    .btn{
+        width: 35vw;
+        height: 6vh;
+    }
+    button{
+        width: 35vw;
+        height: 5vh;
+        
+    }
+   
+}
+
+@media (max-width:750px) {
+    input{
+        font-size: 15px;
+    }
+}
+
+
+
+@media (max-width:700px) {
+    
+    .innerDiv{
+        width: 45vw;
+        height: 80vh;
+    }
+
+    .input{
+        width: 40vw;
+        height: 6vh;
+    }
+    
+    input{
+        width: 39vw;
+        height: 5vh;
+        font-size: 16px;
+    }
+    .btn{
+        width: 40vw;
+        height: 6vh;
+    }
+    button{
+        width: 40vw;
+        height: 5vh;
+        
+    }
+   
+}
+
+@media (max-width:650px) {
+    input{
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:600px) {
+    
+    .innerDiv{
+        width: 50vw;
+        height: 80vh;
+    }
+
+    .input{
+        width: 45vw;
+        height: 6vh;
+    }
+    
+    input{
+        width: 44vw;
+        height: 5vh;
+        font-size: 16px;
+    }
+    .btn{
+        width: 45vw;
+        height: 6vh;
+    }
+    button{
+        width: 45vw;
+        height: 5vh;
+        
+    }
+   
+}
+
+@media (max-width:550px) {
+    input{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:545px) {
+    
+    .innerDiv{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .input{
+        width: 50vw;
+        height: 6vh;
+    }
+    
+    input{
+        width: 49vw;
+        height: 5vh;
+        font-size: 16px;
+    }
+    .btn{
+        width: 50vw;
+        height: 6vh;
+    }
+    button{
+        width: 50vw;
+        height: 5vh;
+        
+    }
+   
+}
+
+@media (max-width:500px) {  
+    .input{
+        width: 55vw;
+        height: 6vh;
+    }
+    
+    input{
+        width: 54vw;
+        height: 5vh;
+        font-size: 16px;
+    }
+    .btn{
+        width: 55vw;
+        height: 6vh;
+    }
+    button{
+        width: 55vw;
+        height: 5vh;  
+    }
+}
+
+@media (max-width:450px) {  
+    .input{
+        width: 65vw;
+        height: 6vh;
+    }
+    
+    input{
+        width: 63vw;
+        height: 5vh;
+        font-size: 16px;
+    }
+    .btn{
+        width: 65vw;
+        height: 6vh;
+    }
+    button{
+        width: 65vw;
+        height: 5vh;  
+    }
+}
+
+@media (max-width:400px) {  
+    .input{
+        width: 72vw;
+        height: 6vh;
+    }
+    
+    input{
+        width: 70vw;
+        height: 5vh;
+        font-size: 16px;
+    }
+    .btn{
+        width: 72vw;
+        height: 6vh;
+    }
+    button{
+        width: 72vw;
+        height: 5vh;  
+    }
+}
+
+@media (max-width:350px) {  
+    .input{
+        width: 80vw;
+        height: 6vh;
+    }
+    
+    input{
+        width: 78vw;
+        height: 5vh;
+        font-size: 16px;
+    }
+    .btn{
+        width: 80vw;
+        height: 6vh;
+    }
+    button{
+        width: 80vw;
+        height: 5vh;  
+    }
+}
